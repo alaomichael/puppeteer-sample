@@ -27,8 +27,8 @@ async function example() {
         //Wait for 5s till download is completed
         await driver.sleep(5000);
     } catch (e) {
-        console.log("Error Occured ========:", e);
         console.log("Error Occured:", e.name);
+        console.log("Error Occured ========:", e);
     }
     //It is always a safe practice to quit the browser after execution
     await driver.quit();
