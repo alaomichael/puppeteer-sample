@@ -2,6 +2,8 @@
 const { strict } = require('once');
 const puppeteer = require('puppeteer');
 const expect = require('chai').expect;
+require('dotenv').config();
+
 
 (async () => {    
     const capabilities = {
